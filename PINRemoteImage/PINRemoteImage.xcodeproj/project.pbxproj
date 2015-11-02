@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ABD240431BE7890B0011EBFF /* MKAnnotationView+PINRemoteImage.h in Headers */ = {isa = PBXBuildFile; fileRef = ABD240411BE7890B0011EBFF /* MKAnnotationView+PINRemoteImage.h */; };
+		ABD240441BE7890B0011EBFF /* MKAnnotationView+PINRemoteImage.m in Sources */ = {isa = PBXBuildFile; fileRef = ABD240421BE7890B0011EBFF /* MKAnnotationView+PINRemoteImage.m */; };
 		F165DFD91BD0504A0008C6E8 /* PINRemoteImageMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = F165DFD81BD0504A0008C6E8 /* PINRemoteImageMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F1B918FF1BCF23C900710963 /* PINRemoteImageCategoryManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F1B918DC1BCF23C800710963 /* PINRemoteImageCategoryManager.m */; };
 		F1B919001BCF23C900710963 /* NSData+ImageDetectors.h in Headers */ = {isa = PBXBuildFile; fileRef = F1B918DE1BCF23C800710963 /* NSData+ImageDetectors.h */; };
@@ -45,6 +47,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		ABD240411BE7890B0011EBFF /* MKAnnotationView+PINRemoteImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKAnnotationView+PINRemoteImage.h"; sourceTree = "<group>"; };
+		ABD240421BE7890B0011EBFF /* MKAnnotationView+PINRemoteImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKAnnotationView+PINRemoteImage.m"; sourceTree = "<group>"; };
 		F165DFD81BD0504A0008C6E8 /* PINRemoteImageMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PINRemoteImageMacros.h; path = ../../Pod/Classes/PINRemoteImageMacros.h; sourceTree = "<group>"; };
 		F1B918D11BCF239200710963 /* PINRemoteImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PINRemoteImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1B918D61BCF239200710963 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -186,6 +190,8 @@
 				F1B918E81BCF23C800710963 /* UIButton+PINRemoteImage.m */,
 				F1B918E91BCF23C800710963 /* UIImageView+PINRemoteImage.h */,
 				F1B918EA1BCF23C800710963 /* UIImageView+PINRemoteImage.m */,
+				ABD240411BE7890B0011EBFF /* MKAnnotationView+PINRemoteImage.h */,
+				ABD240421BE7890B0011EBFF /* MKAnnotationView+PINRemoteImage.m */,
 			);
 			name = "Image Categories";
 			path = "../../Pod/Classes/Image Categories";
@@ -215,6 +221,7 @@
 				F1B919181BCF23C900710963 /* PINRemoteImageManagerResult.h in Headers */,
 				F1B9191A1BCF23C900710963 /* PINRemoteImageProcessorTask.h in Headers */,
 				F1B919021BCF23C900710963 /* UIImage+DecodedImage.h in Headers */,
+				ABD240431BE7890B0011EBFF /* MKAnnotationView+PINRemoteImage.h in Headers */,
 				F1B919141BCF23C900710963 /* PINRemoteImageDownloadTask.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,6 +304,7 @@
 				F1B919151BCF23C900710963 /* PINRemoteImageDownloadTask.m in Sources */,
 				F1B919031BCF23C900710963 /* UIImage+DecodedImage.m in Sources */,
 				F1B9191F1BCF23C900710963 /* PINURLSessionManager.m in Sources */,
+				ABD240441BE7890B0011EBFF /* MKAnnotationView+PINRemoteImage.m in Sources */,
 				F1B9191B1BCF23C900710963 /* PINRemoteImageProcessorTask.m in Sources */,
 				F1B9190B1BCF23C900710963 /* UIImageView+PINRemoteImage.m in Sources */,
 				F1B9190D1BCF23C900710963 /* PINDataTaskOperation.m in Sources */,
